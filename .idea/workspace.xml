@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953d3049-aac6-49ca-9b05-a991c0007b8c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyLearningRoute.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLearningRoute.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,16 +16,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Spring_MVC的启动过程.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Spring_MVC的启动过程.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="387">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode0001_TwoSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode0002_AddTwoNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="47" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -36,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java" />
       </list>
     </option>
   </component>
@@ -61,45 +79,54 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="gitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC的启动过程" type="462c0819:PsiDirectoryNode" />
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC的启动过程" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_MVC_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nixuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nixuan" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,6 +135,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -189,11 +219,12 @@
       <workItem from="1530443459904" duration="76000" />
       <workItem from="1530443611116" duration="4049000" />
       <workItem from="1530452673604" duration="811000" />
+      <workItem from="1530507321860" duration="1328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5957000" />
+    <option name="totallyTimeSpent" value="7285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -203,15 +234,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,27 +266,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="648">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -267,16 +286,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
       <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="387">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyLearningRoute</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
