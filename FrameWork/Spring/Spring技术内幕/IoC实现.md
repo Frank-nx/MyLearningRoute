@@ -1,0 +1,6 @@
+1. IoC容器和上下文的初始化一般不包含Bean依赖注入的实现。一般而言，依赖注入发生在应用第一次向容器通过getBean索取Bean时，但也可以通过Bean中定义的lazyinit属性来设定，设置了
+lazyinit属性的Bean的依赖注入，可以在IoC容器初始化时就可以预先完成
+
+2. IoC容器的初始化包括BeanDefinition的Resouce定位、载入和注册这三个基本的过程。
+
+3. BeanDefinition的资源定位有ResourceLoader通过统一的Resource接口来完成。
