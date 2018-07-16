@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953d3049-aac6-49ca-9b05-a991c0007b8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/Maven指令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/mvn clean compile执行过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/test两个问题都解决.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/test中的编码问题1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/test测试代码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/依赖影响传递.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/依赖影响传递2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/依赖范围与classpath的关系.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/执行mvn clean compile之后.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Maven/pages/未执行mvn clean compile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Spring/Spring常用注解/Spring注解.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Spring/Spring技术内幕/IoC实现.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0009_PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0010_ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0012_IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0013_RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0014_LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0015_3Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/testMethod/genirics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intership/vip-vodcoupon/TestDataBaseLanguages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intership/vip-vodcoupon/testDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intership/vip-vodcoupon/testMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/pages/类的API.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/反射.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/泛型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/多线程相关的常用函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceSkill/指令相关/jvm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Git/git基础/git基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Git/git基础/git运行前的配置.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Git/git基础/pages/三个工作区域.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Git/git基础/获取git仓库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Git/git基础/记录每次更新到仓库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceSkill/java约束规范/java约束规范.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrameWork/Maven/Maven指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/FrameWork/Maven/Maven指令.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,100 +28,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode0012_IntegerToRoman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0012_IntegerToRoman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode0015_3Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0015_3Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spring注解.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring常用注解/Spring注解.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <file leaf-file-name="jvm.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practiceSkill/指令相关/jvm.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
+              <first_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDataBaseLanguages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intership/vip-vodcoupon/TestDataBaseLanguages.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="IoC实现.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring技术内幕/IoC实现.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <file leaf-file-name="多线程相关的常用函数.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/多线程相关的常用函数.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="泛型.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/泛型.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2499">
-                <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
+              <first_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="反射.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/反射.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2331">
-                <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+              <first_editor relative-caret-position="252">
+                <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               </first_editor>
-              <second_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genirics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/genirics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maven指令.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrameWork/Maven/Maven指令.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <file leaf-file-name="java约束规范.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practiceSkill/java约束规范/java约束规范.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="365">
-                <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+              <first_editor relative-caret-position="126">
+                <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               </first_editor>
-              <second_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -180,6 +117,12 @@
         <option value="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/反射.md" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/testMethod/genirics.java" />
         <option value="$PROJECT_DIR$/FrameWork/Maven/Maven指令.md" />
+        <option value="$PROJECT_DIR$/FrameWork/Git/git基础/git基础.md" />
+        <option value="$PROJECT_DIR$/FrameWork/Git/git的环境配置/git运行前的配置.md" />
+        <option value="$PROJECT_DIR$/FrameWork/Git/git基础/获取git仓库.md" />
+        <option value="$PROJECT_DIR$/FrameWork/Git/git基础/记录每次更新到仓库.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/practiceSkill/java约束规范/java约束规范.md" />
       </list>
     </option>
   </component>
@@ -192,10 +135,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
-    <option name="y" value="24" />
-    <option name="width" value="1139" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="257" />
+    <option name="y" value="76" />
+    <option name="width" value="1580" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -205,6 +148,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,12 +162,35 @@
               <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
               <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBasicKnowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBasicKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="反射与泛型" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="java约束规范" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="指令相关" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,15 +202,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitProject\MyLearningRoute\FrameWork\Git\git基础" />
       <recent name="E:\gitProject\MyLearningRoute\practiceSkill\JavaBasicKnowledge\反射与泛型\pages" />
       <recent name="E:\gitProject\MyLearningRoute\practiceSkill\JavaBasicKnowledge\反射与泛型" />
       <recent name="E:\gitProject\MyLearningRoute\intership\vip-vodcoupon" />
       <recent name="D:\gitProject\FrameWork\Spring_MVC\Spring_MVC的启动过程\Spring_MVC_pages\SpringMVC_visio" />
-      <recent name="D:\gitProject\FrameWork\Spring_MVC\Spring_MVC的启动过程\Spring_MVC_pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +356,12 @@
       <workItem from="1531139698177" duration="12371000" />
       <workItem from="1531400472713" duration="10220000" />
       <workItem from="1531535635382" duration="1875000" />
-      <workItem from="1531538798690" duration="6802000" />
+      <workItem from="1531538798690" duration="20421000" />
+      <workItem from="1531737729502" duration="274000" />
+      <workItem from="1531738028172" duration="78000" />
+      <workItem from="1531738126636" duration="483000" />
+      <workItem from="1531738629370" duration="80000" />
+      <workItem from="1531738736416" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode2">
       <created>1530508771457</created>
@@ -418,36 +391,44 @@
       <option name="project" value="LOCAL" />
       <updated>1530668422147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="maven">
+      <created>1531562022049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531562022049</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59110000" />
+    <option name="totallyTimeSpent" value="74456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="24" width="1139" height="1040" extended-state="0" />
+    <frame x="257" y="76" width="1580" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2150139" side_tool="true" visible="true" weight="0.32815966" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24360105" side_tool="true" weight="0.32815966" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7849861" visible="true" weight="0.32815966" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7563989" visible="true" weight="0.32815966" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20481928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30197367" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49888888" weight="0.26274943" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +450,8 @@
     <MESSAGE value="leetCode3，5" />
     <MESSAGE value="leetCode6" />
     <MESSAGE value="leetCode7-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetCode7-8" />
+    <MESSAGE value="maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,63 +459,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0003_LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="23" selection-start-line="12" selection-start-column="8" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0005_LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0006_ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0007_ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0008_StringToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="24" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -569,14 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -605,14 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -627,14 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md" />
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
@@ -647,12 +551,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FrameWork/Spring_MVC/Spring_MVC的启动过程/Spring_MVC的启动过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java">
@@ -732,66 +630,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/多线程相关的常用函数.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practiceSkill/指令相关/jvm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring常用注解/Spring注解.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intership/vip-vodcoupon/TestDataBaseLanguages.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring技术内幕/IoC实现.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/泛型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2499">
-            <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0015_3Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,36 +647,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/反射.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2331">
-            <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/genirics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrameWork/Maven/pages/test中的编码问题1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameWork/Maven/Maven指令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/泛型.md" />
+    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/pages/类的API.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/git运行前的配置.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/记录每次更新到仓库.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/获取git仓库.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/git基础.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Maven/Maven指令.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring技术内幕/IoC实现.md" />
+    <entry file="file://$PROJECT_DIR$/FrameWork/Spring/Spring常用注解/Spring注解.md" />
+    <entry file="file://$PROJECT_DIR$/practiceSkill/指令相关/jvm.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="365">
-            <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/多线程相关的常用函数.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/反射与泛型/反射.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           </first_editor>
-          <second_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceSkill/java约束规范/java约束规范.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

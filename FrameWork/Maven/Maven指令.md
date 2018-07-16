@@ -1,4 +1,4 @@
-1. mvn clean compile
+mvn clean compile
 
 未执行这条语句的目录
 
@@ -111,7 +111,13 @@ Maven2.0.9开始，为了尽可能的避免构建的不确定性，Maven定义�
 
 3. 优化依赖
 
+maven的三套生命周期
 
+1. clean生命周期：清理项目
+
+2. default生命周期：构建项目
+
+3. site生命周期：建立项目站点
 
 
 
