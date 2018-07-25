@@ -18,11 +18,11 @@ Nginx有五大优点：模块化、事件驱动、异步、非阻塞、多进程
 
 nginx的常见指令
 ```
+启动Nginx：start nginx
+
 验证配置是否正确: nginx -t
 
 查看Nginx的版本号：nginx -V
-
-启动Nginx：start nginx
 
 快速停止或关闭Nginx：nginx -s stop
 
@@ -51,7 +51,6 @@ nginx进程
 nginx的默认配置
 
 ```
-
 #user  nobody;
 worker_processes  1;
 
@@ -61,11 +60,9 @@ worker_processes  1;
 
 #pid        logs/nginx.pid;
 
-
 events {
     worker_connections  1024;
 }
-
 
 http {
     include       mime.types;

@@ -67,7 +67,14 @@ upstream myapp1 {
 如果需要将客户端绑定到特定的应用程序服务器 ，使客户端的会话保持持久性，就可以使用ip-hash负载均衡机制。
 
 要配置ip-hash负载平衡，只需将ip_hash 指令添加到服务器（上游）组配置：
-
+```
+upstream myapp1 {
+    ip_hash;
+    server srv1.example.com;
+    server srv2.example.com;
+    server srv3.example.com;
+}
+```
 ## 五、使用加权负载均衡
 
 通过使用服务器权重，甚至可以进一步影响`nginx`负载平衡算法。
@@ -100,5 +107,9 @@ upstream myapp1 {
 该fail_timeout参数还定义服务器多久没有回应会被标记为失败，只要服务器失败将被标记。
 在服务器发生故障后的fail_timeout时间间隔后，nginx将开始使用实时客户端的请求正常探测服务器。
 如果探测成功，则将服务器标记正常。
+
+reference：
+
+[Using nginx as HTTP load balancer](http://nginx.org/en/docs/http/load_balancing.html)
 
 

@@ -44,7 +44,7 @@ server {
 
 通配符名称仅仅只能在名称的开头或结尾包含`*`，并且仅在`.`边上包含星号，
 即以`*.`开头或是以`.*`结尾。名称“ www.*.example.org”和“ w*.example.org”无效。
-但是，可以使用正则表达式指定这些名称，例如“ ~^www\..+\.example\.org$”和“ ~^w.*\.example\.org$”。
+可以使用正则表达式指定这些名称，例如“ ~^www\..+\.example\.org$”和“ ~^w.*\.example\.org$”。
 `*`可以匹配多个名称部分。名称`*.example.org`不仅可以匹配`www.example.org`，
 而且也可以匹配`www.sub.example.org`。
 

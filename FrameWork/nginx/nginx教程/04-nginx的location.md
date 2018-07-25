@@ -20,7 +20,7 @@
 
 ### 2、location匹配顺序
 
-`(location =) > (location 完整路径) > (location ^~ 路径) > (location ~,~* 正则顺序) > (location 部分起始路径) > (/)`
+`(location =) > (location ^~ 路径) > (location ~,~* 正则顺序) > (location 部分起始路径) > (/)`
 
 
 1. =前缀的指令严格匹配这个查询。如果找到，停止搜索。
@@ -30,4 +30,6 @@
 找出的最长前缀的。
 5. 上面4种都没匹配到，则匹配location /;
 
-如果在location中没有找到相匹配的url，连/都没有配置，会返回一个错误
+reference:
+
+[location](http://nginx.org/en/docs/http/ngx_http_core_module.html#location)

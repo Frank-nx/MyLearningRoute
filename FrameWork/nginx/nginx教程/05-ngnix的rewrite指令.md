@@ -1,32 +1,5 @@
 
-## 一、nginx中rewrite的简单介绍
-rewrite功能就是，使用nginx提供的全局变量或自己设置的变量，
-结合正则表达式和标志位实现url重写以及重定向。
-rewrite只能放在`server{}`,`location{}`,`if{}`中，
-并且只能对域名后边的除去传递的参数外的字符串起作用。
-
-例如`http://seanlook.com/a/we/index.PHP?id=1&u=str` 只对`/a/we/index.php`重写。
-
-语法rewrite regex replacement [flag];
-
-表明看rewrite和location功能有点像，都能实现跳转，
-主要区别在于rewrite是在同一域名内更改获取资源的路径，
-而location是对一类路径做控制访问或反向代理，可以proxy_pass到其他机器。
-很多情况下rewrite也会写在location里，它们的执行顺序是：
-
-1. 执行server块的rewrite指令
-2. 执行location匹配
-3. 执行选定的location中的rewrite指令
-
-如果其中某步URI被重写，则重新循环执行1-3，直到找到真实存在的文件；
-循环超过10次，则返回500 `Internal Server Error`错误。
-
-
-last与break的区别：
-
-1. `last`一般写在`server`和`if`中，而`break`一般使用在`location`中
-2. `last`不终止重写后的`url`匹配，即新的`url`会再从`server`走一遍匹配流程，而`break`终止重写后的匹配
-3. `break`和`last`都能阻止继续执行后面的`rewrite`指令
+## rewrite模块
 
 该ngx_http_rewrite_module模块用于使用PCRE正则表达式更改请求URI，返回重定向，
 以及有条件地选择配置。
@@ -40,15 +13,14 @@ break，if，return，rewrite和set指令以下面的顺序执行：
    
 (2). 顺序执行匹配到的 location 中的rewrite模块指令
 
-如果没有遇到中断循环标志，此循环最多执行10次，
-但是我们可以使用break指令来中断rewrite后的新一轮的循环
+如果没有遇到中断循环标志，此循环最多执行10次，超过之后，返回500 `Internal Server Error`错误。
 
-## break
+### break
 
 ```
 Syntax:	break;
 Default:	—
-Context:	server, location, if
+Context:server, location, if
 ```
 停止执行目前ngx_http_rewrite_module的指令集，但是其他模块指令是不受影响的
 
@@ -78,11 +50,11 @@ server {
 # (proxy_pass是ngx_http_proxy_module的指令)
 ```
 
-## if
+### if
 ```
 Syntax:	if (condition) { ... }
-Default:	—
-Context:	server, location
+Default:—
+Context:server, location
 ```
 
 if 中的几种判断条件：
@@ -94,13 +66,13 @@ if 中的几种判断条件：
 6. 检测文件、路径、或者链接文件是否存在 使用 -e(存在) 和 !-e(不存在) 后面判断可以是字符串也可是变量
 7. 检测文件是否为可执行文件 使用 -x(可执行) 和 !-x(不可执行) 后面判断可以是字符串也可是变量
 
-## return
+### return
 ```
 Syntax:	return code [text];
 return code URL;
 return URL;
 Default:—
-Context:	server, location, if
+Context:server, location, if
 ```
 
 停止处理并将指定的code码返回给客户端。 非标准code码 444 关闭连接而不发送响应报头。
@@ -131,6 +103,7 @@ location = /redirect {
 }
 ```
 
+### rewrite
 ```
 Syntax:	rewrite regex replacement [flag];
 Default:—
@@ -169,21 +142,29 @@ location / {
 # 因为会顺序执行 rewrite 指令 所以 下一步执行 return 指令 响应了 ok 
 ```
 
-1. last
+falg的四种
+
+- last
 
 停止处理当前的ngx_http_rewrite_module的指令集，并开始搜索与更改后的URI相匹配的location;
 
-2. break
+- break
 
 停止处理当前的ngx_http_rewrite_module指令集，就像上面说的break指令一样;
 
-3. redirect
+- redirect
 
 返回302临时重定向。
 
-4. permanent
+- permanent
 
 返回301永久重定向。
+
+last与break的区别：
+
+1. `last`一般写在`server`和`if`中，而`break`一般使用在`location`中
+2. `last`不终止重写后的`url`匹配，即新的`url`会再从`server`走一遍匹配流程，而`break`终止重写后的匹配
+3. `break`和`last`都能阻止继续执行后面的`rewrite`指令
 
 ```
 # 如果rewrite 后面没有任何 flag 时就顺序执行 
@@ -220,7 +201,7 @@ location / {
 last 和 break一样 它们都会终止此 location 中其他它rewrite模块指令的执行，
 但是 last 立即发起新一轮的 location 匹配 而 break 则不会
 
-## rewrite后的请求参数
+### rewrite后的请求参数
 
 如果替换字符串replacement包含新的请求参数，则在它们之后附加先前的请求参数。如果你不想要之前的参数，
 则在替换字符串 replacement 的末尾放置一个问号，避免附加它们。
@@ -230,7 +211,7 @@ last 和 break一样 它们都会终止此 location 中其他它rewrite模块指
 rewrite ^/users/(.*)$ /show?user=$1? last;
 ```
 
-## rewrite_log
+### rewrite_log
 
 ```
 Syntax:	rewrite_log on | off;
@@ -239,12 +220,12 @@ Context: http, server, location, if
 ```
 开启或者关闭 rewrite模块指令执行的日志，如果开启，则重写将记录下notice 等级的日志到nginx 的 error_log 中，默认为关闭 off
 
-## set
+### set
 
 ```
 Syntax:	set $variable value;
-Default:	—
-Context:	server, location, if
+Default:—
+Context:server, location, if
 ```
 设置指定变量的值。变量的值可以包含文本，变量或者是它们的组合形式。
 ```
@@ -259,9 +240,13 @@ location / {
 # response ok host is 127.0.0.1 uri is /test
 ```
 
-## uninitialized_variable_warn
+### uninitialized_variable_warn
 
 Syntax:	uninitialized_variable_warn on | off;
 Default:	
 uninitialized_variable_warn on;
-Context:	http, server, location, if
+Context:http, server, location, if
+
+reference：
+
+[ngx_http_rewrite_module](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html)
