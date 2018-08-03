@@ -48,7 +48,17 @@ $1: 表示第一个参数，$9 以后就需要大括号了,如 ${10}, ${11}, ${1
 这句语句时检查net_dc这个变量的引用是否为空，
 加上x是为了，防止net_dc这个变量的引用为空时的语法错误。
 ```
+3. 实现将压缩包解压重命名
+```
+wget -O mysql-5.6.15.tar.gz  http://oss.aliyuncs.com/aliyunecs/onekey/mysql/mysql-5.6.15-linux-glibc2.5-i686.tar.gz
 
+mkdir ./mysql-5.6.15 && tar -xzvf mysql-5.6.15.tar.gz -C ./mysql-5.6.15 --strip-components 1
+```
+这样mysql-5.6.15-linux-glibc2.5-i686.tar.gz” 变为 “mysql-5.6.15”
+
+4. 查询nginx进程
+
+`ps aux|grep nginx`
 
 
 
