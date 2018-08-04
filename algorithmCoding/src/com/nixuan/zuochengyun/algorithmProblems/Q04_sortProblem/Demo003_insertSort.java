@@ -1,23 +1,25 @@
-package com.nixuan.zuolingyun.algorithmProblems.Q04_sortProblem;
+package com.nixuan.zuochengyun.algorithmProblems.Q04_sortProblem;
 
 import java.util.Arrays;
 
-public class Demo001_bubbleSort {
+public class Demo003_insertSort {
 
     public static void main(String[] args) {
         int[] arr = {1,8,4,2,4,6,4,0,9,7,2};
-        bubbleSort(arr,arr.length);
+        insertSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    public static void bubbleSort(int[] arr, int n){
+    public static void insertSort(int[] arr){
         if(arr == null || arr.length <= 1){
             return;
         }
-        for(int i = n-1;i>0;i--){
+        for(int i=1;i<arr.length;i++){
             for(int j=i-1;j>=0;j--){
-                if(arr[i]<arr[j]){
-                    swap(arr,i,j);
+                if(arr[j]>arr[j+1]){
+                    swap(arr,j,j+1);
+                }else{
+                    break;
                 }
             }
         }

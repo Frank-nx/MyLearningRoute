@@ -1,4 +1,4 @@
-package com.nixuan.zuolingyun.algorithmProblems.Q01_treeProblem;
+package com.nixuan.zuochengyun.algorithmProblems.Q01_treeProblem;
 
 import com.nixuan.util.TreeNode;
 

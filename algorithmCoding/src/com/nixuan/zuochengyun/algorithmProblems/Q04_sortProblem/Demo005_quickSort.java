@@ -1,4 +1,4 @@
-package com.nixuan.zuolingyun.algorithmProblems.Q04_sortProblem;
+package com.nixuan.zuochengyun.algorithmProblems.Q04_sortProblem;
 
 import java.util.Arrays;
 
