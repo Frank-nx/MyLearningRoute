@@ -6,6 +6,8 @@ public class ListNode {
 
     public ListNode next = null;
 
+    public ListNode random = null;
+
     public ListNode(){}
 
     public ListNode(int val){
@@ -49,5 +51,23 @@ public class ListNode {
             cur = cur.next;
         }
         System.out.println(cur.val);
+    }
+
+    public static void printRandomList(ListNode head){
+        if(head == null){
+            return;
+        }
+        ListNode cur = head;
+        while(cur != null){
+            System.out.print(cur.val + "->");
+            ListNode ran = cur.random;
+            if (ran != null){
+                System.out.print(ran.val + "->");
+            }
+            System.out.println("null");
+            System.out.println("|");
+            cur = cur.next;
+        }
+        System.out.println("null");
     }
 }

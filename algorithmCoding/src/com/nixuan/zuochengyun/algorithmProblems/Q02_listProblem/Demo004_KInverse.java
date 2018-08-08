@@ -12,8 +12,57 @@ import com.nixuan.util.ListNode;
 
 public class Demo004_KInverse {
 
-    public ListNode inverse(ListNode head, int k) {
+    public static void main(String[] args) {
+        int[] arr = {0,1,2,5,11};
+        ListNode oldHead = ListNode.buildList(arr);
+        ListNode.printList(oldHead);
+        ListNode newHead = inverse(oldHead,2);
+        ListNode.printList(newHead);
+    }
+
+    public static ListNode inverse(ListNode head, int k) {
         // write code here
-        return null;
+        if(head == null){
+            return null;
+        }
+        ListNode[] temp = inverseKList(head,k);
+        ListNode newHead = temp[0];
+        while(temp[1] != null){
+            ListNode[] nodes = inverseKList(temp[1].next,k);
+            if (nodes != null){
+                temp[1].next = nodes[0];
+                temp = nodes;
+            }else{
+                break;
+            }
+        }
+        return newHead;
+    }
+
+    public static ListNode[] inverseKList(ListNode node, int k){
+        if (node == null){
+            return null;
+        }
+        int count = 0;
+        ListNode pre = null;
+        ListNode cur = node;
+        while(cur != null && count < k){
+            count++;
+            cur = cur.next;
+        }
+        cur = node;
+        if(count >= k){
+            count = 0;
+            while(cur != null && count < k){
+                ListNode temp = cur.next;
+                cur.next = pre;
+                pre = cur;
+                cur = temp;
+                count++;
+            }
+            node.next = cur;
+            return new ListNode[]{pre,node};
+        }
+        return new ListNode[]{node,null};
     }
 }

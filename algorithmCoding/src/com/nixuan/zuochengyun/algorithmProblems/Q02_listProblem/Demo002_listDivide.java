@@ -67,16 +67,13 @@ public class Demo002_listDivide {
         ListNode moreHead = null;
 
         while(cur != null){
-            if(cur.val <= val){
+            if(lessHead == null && cur.val <= val){
                 lessHead = cur;
-                break;
             }
-            cur = cur.next;
-        }
-        cur = head;
-        while(cur != null){
-            if(cur.val > val){
+            if(moreHead == null && cur.val > val){
                 moreHead = cur;
+            }
+            if(lessHead !=null && moreHead != null){
                 break;
             }
             cur = cur.next;
@@ -85,11 +82,11 @@ public class Demo002_listDivide {
         ListNode less = lessHead;
         ListNode more = moreHead;
         while(cur!=null){
-            if(less != cur && cur.val <= val){
+            if(cur != lessHead && cur.val <= val){
                 less.next = cur;
                 less = cur;
             }
-            if(more != cur && cur.val > val){
+            if(cur != moreHead && cur.val > val){
                 more.next = cur;
                 more = cur;
             }
