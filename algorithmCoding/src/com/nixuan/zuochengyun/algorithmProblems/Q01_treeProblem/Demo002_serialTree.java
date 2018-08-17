@@ -5,7 +5,7 @@ import com.nixuan.util.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Q002_serialTree {
+public class Demo002_serialTree {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

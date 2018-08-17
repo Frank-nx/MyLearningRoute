@@ -62,10 +62,10 @@ public class Demo002_listDivide {
             return null;
         }
         ListNode cur = head;
+        // 设置小于目标值的头结点lessHead和大于目标值的头结点moreHead
         ListNode lessHead = null;
-
         ListNode moreHead = null;
-
+        // 找到小于目标值的头结点lessHead和大于目标值的头结点moreHead
         while(cur != null){
             if(lessHead == null && cur.val <= val){
                 lessHead = cur;
@@ -77,6 +77,13 @@ public class Demo002_listDivide {
                 break;
             }
             cur = cur.next;
+        }
+        // 这里要对lessHead和moreHead进行判断，不然后面直接用会出现空指针异常
+        if(lessHead == null){
+            return moreHead;
+        }
+        if(moreHead == null){
+            return lessHead;
         }
         cur = head;
         ListNode less = lessHead;
@@ -92,7 +99,10 @@ public class Demo002_listDivide {
             }
             cur = cur.next;
         }
+        // 这里要将大于的尾指针指向null，防止more指令为头结点时出现一个环
+        more.next = null;
         less.next = moreHead;
+
         return lessHead;
     }
 }

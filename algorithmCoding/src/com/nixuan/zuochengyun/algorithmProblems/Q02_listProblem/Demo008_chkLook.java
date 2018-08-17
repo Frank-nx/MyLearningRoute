@@ -22,6 +22,7 @@ public class Demo008_chkLook {
             slow = slow.next;
             fast = fast.next.next;
         }
+        // 上面的循环不是因为slow==fast而停止的，证明没有环的存在
         if(slow != fast){
             return -1;
         }

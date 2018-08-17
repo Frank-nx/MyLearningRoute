@@ -34,15 +34,18 @@ public class Demo001_InsertValue {
         }
         ListNode head = new ListNode(arr[0]);
         ListNode cur = head;
+        // 将数组转化成环形链表
         for(int i = 0; i < nxt.length - 1; i++){
             cur.next = new ListNode(arr[nxt[i]]);
             cur = cur.next;
         }
         cur.next = head;
+        // 插入的数在环形链表的中间
         cur = head;
         ListNode last = head.next;
         ListNode insertNode = new ListNode(val);
         while(last != head){
+            // 如果在链表的中间，直接返回头结点
             if(cur.val <= val && last.val >= val){
                 cur.next = insertNode;
                 insertNode.next = last;
@@ -52,8 +55,10 @@ public class Demo001_InsertValue {
             last = last.next;
 
         }
+        // 插入的数在尾节点和头结点之间
         cur.next = insertNode;
         insertNode.next = last;
+        // 如果头结点的值比插入的节点大，返回插入的节点
         if(head.val > val){
             return insertNode;
         }

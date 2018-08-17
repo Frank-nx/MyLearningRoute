@@ -34,6 +34,7 @@ public class Demo006_palindromeList {
             slow = slow.next;
             fast = fast.next.next;
         }
+        // 反转后半边链表
         ListNode pre = null;
         ListNode cur = slow;
         while(cur != null){
@@ -42,6 +43,7 @@ public class Demo006_palindromeList {
             pre = cur;
             cur = temp;
         }
+        // 对链表从两端到中间进行判断，看是否是回文
         ListNode start1 = pHead;
         ListNode start2 = pre;
         while(start1 != null && start2 != null){

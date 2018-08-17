@@ -29,6 +29,7 @@ public class Demo004_KInverse {
         ListNode newHead = temp[0];
         while(temp[1] != null){
             ListNode[] nodes = inverseKList(temp[1].next,k);
+            // 如果刚好是K的整数倍，则最后nodes会返回null，如果是null要直接退出
             if (nodes != null){
                 temp[1].next = nodes[0];
                 temp = nodes;
@@ -46,11 +47,13 @@ public class Demo004_KInverse {
         int count = 0;
         ListNode pre = null;
         ListNode cur = node;
+        // 查看node节点及之后是否有k个节点
         while(cur != null && count < k){
             count++;
             cur = cur.next;
         }
         cur = node;
+        // 如果有k个节点就进行k个节点的反转
         if(count >= k){
             count = 0;
             while(cur != null && count < k){
@@ -60,9 +63,12 @@ public class Demo004_KInverse {
                 cur = temp;
                 count++;
             }
+            // 将反转之后的尾节点与剩下链表的头结点连起来，保证链表不会断开
             node.next = cur;
+            // 返回一个数组，pre为反转之后的头结点，node为反转之后的尾节点
             return new ListNode[]{pre,node};
         }
+        // 不足k个数不进行反转，直接返回头结点
         return new ListNode[]{node,null};
     }
 }
