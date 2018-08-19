@@ -10,22 +10,49 @@ import com.nixuan.util.TreeNode;
 
 public class Demo011_MaxSubtree {
 
-    public TreeNode getMax(TreeNode root) {
-        // write code here
+    public static void main(String[] args) {
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(5);
+        TreeNode node6 = new TreeNode(6);
+
+        node4.leftNode = node2;
+        node4.rightNode = node6;
+        node2.leftNode = node1;
+        node2.rightNode = node5;
+        node6.leftNode = node3;
+
+        TreeNode res = getMax(node4);
+        System.out.println(res.val);
     }
 
-    public MessageNode getMaxCore(TreeNode root,MessageNode res){
+    public static TreeNode getMax(TreeNode root) {
+        // write code here
         if(root == null){
-            new MessageNode(null,0,0,0);
+            return null;
         }
-        MessageNode left = getMaxCore(root.leftNode,res);
-        MessageNode right = getMaxCore(root.rightNode,res);
-        if(left.max < root.val && root.val < right.min && res.nodeNum < ()){
-            res.head = root;
-            res.nodeNum = left.nodeNum + right.nodeNum + 1;
-            res.min = left.min;
-            res.max = right.max;
+        MessageNode res = getMaxCore(root);
+        return res.head;
+    }
+
+    public static MessageNode getMaxCore(TreeNode root){
+        if(root == null){
+            return new MessageNode(null,0,Integer.MAX_VALUE,Integer.MIN_VALUE);
         }
+        MessageNode left = getMaxCore(root.leftNode);
+        MessageNode right = getMaxCore(root.rightNode);
+        if(left.head == root.leftNode && right.head == root.rightNode && left.max < root.val && root.val < right.min){
+            MessageNode res = new MessageNode(root, (left.nodeNum + right.nodeNum + 1), left.min, right.max);
+            res.min = left.head == null ? root.val : left.min;
+            res.max = right.head == null ? root.val : right.max;
+            return res;
+        }
+        if(left.nodeNum == right.nodeNum){
+            return left.head.val > right.head.val ? left : right;
+        }
+        return left.nodeNum > right.nodeNum ? left : right;
     }
     private static class MessageNode{
         TreeNode head;
