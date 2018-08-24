@@ -26,7 +26,7 @@ public class Demo001_getLessIndex {
             if(arr[mid] < arr[mid - 1] && arr[mid] < arr[mid + 1]){
                 return mid;
             }
-            if(arr[mid] < arr[mid - 1] && arr[mid] > arr[mid + 1]){
+            if(arr[mid] < arr[mid - 1]){
                 left = mid;
             }else{
                 right = mid;

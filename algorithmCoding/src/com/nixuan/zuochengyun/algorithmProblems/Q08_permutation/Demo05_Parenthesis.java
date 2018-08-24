@@ -12,7 +12,7 @@ import com.nixuan.util.MathUtil;
  * 1
  * 返回：1
  *
- * 思路：卡特兰数公式
+ * 思路：卡特兰数公式 https://github.com/Frank-nx/MyLearningRoute/blob/master/practiceSkill/%E4%B8%8E%E6%95%B0%E5%AD%A6%E6%9C%89%E5%85%B3%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0.md
  */
 public class Demo05_Parenthesis {
 

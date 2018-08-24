@@ -32,7 +32,7 @@ public class Demo005_countNodes {
             sublevel++;
             node = node.leftNode;
         }
-        if(level == sublevel){
+        if(level - 1 == sublevel){
             return (int)Math.pow(2,level - 1) + count(root.rightNode);
         }
         return (int)Math.pow(2,sublevel) + count(root.leftNode);

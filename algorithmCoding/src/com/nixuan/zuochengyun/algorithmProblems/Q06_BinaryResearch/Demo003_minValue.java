@@ -10,6 +10,8 @@ package com.nixuan.zuochengyun.algorithmProblems.Q06_BinaryResearch;
  */
 public class Demo003_minValue {
 
+
+
     public int getMin(int[] arr, int n) {
         // write code here
         if(arr == null || arr.length < 1){
