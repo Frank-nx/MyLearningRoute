@@ -1,7 +1,8 @@
 package com.nixuan.reflect.service.cglibExample;
 
 import com.nixuan.reflect.service.interfaceAndImpl.UserServiceImpl;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 public class CglibTest {
 

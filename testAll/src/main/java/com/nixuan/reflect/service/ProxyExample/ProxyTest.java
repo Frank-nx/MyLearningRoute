@@ -2,11 +2,8 @@ package com.nixuan.reflect.service.ProxyExample;
 
 import com.nixuan.reflect.service.interfaceAndImpl.UserService;
 import com.nixuan.reflect.service.interfaceAndImpl.UserServiceImpl;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 public class ProxyTest {
 
