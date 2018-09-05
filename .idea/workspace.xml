@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23236b8-1c80-44e5-a582-b5fb2c6c7ce1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo005_LCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo006_Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyLearningRoute.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_0_RC1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0_RC1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo004_LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo004_LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/testMethod/testMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/testMethod/testMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/testMethod/testHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testAll/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,23 +15,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProxyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testAll/src/main/java/com/nixuan/reflect/service/ProxyExample/ProxyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Demo001_Exchange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo001_Exchange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="756">
               <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git的基本指令汇总.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrameWork/Git/git的基本指令汇总/git的基本指令汇总.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="记录每次更新到仓库.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/记录每次更新到仓库.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSH.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practiceSkill/SSH协议/SSH.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDEA破解教程.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/软件安装/IntelliJ IDEA安装及破解/IDEA破解教程.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo006_heapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q04_sortProblem/Demo006_heapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/TestList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/testHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -68,65 +105,8 @@
       <file leaf-file-name="Demo003_MinimumPath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo003_MinimumPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testAll.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testAll/testAll.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo004_LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo004_LongestIncreasingSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testRegex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/testRegex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testMod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/testMod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo005_LCS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo005_LCS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo006_Backpack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo006_Backpack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -168,6 +148,7 @@
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo006_Backpack.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/testMethod/testMod.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo004_LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/testMethod/testHeap.java" />
       </list>
     </option>
   </component>
@@ -205,8 +186,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
-    <option name="y" value="48" />
+    <option name="x" value="3" />
+    <option name="y" value="50" />
     <option name="width" value="1428" />
     <option name="height" value="969" />
   </component>
@@ -215,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -256,76 +236,23 @@
               <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
               <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nixuan" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="Q09_dpProblem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testMethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute" type="462c0819:PsiDirectoryNode" />
-              <item name="testAll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="reflectTest" type="462c0819:PsiDirectoryNode" />
+              <item name="软件安装" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,7 +430,13 @@
       <workItem from="1535328786293" duration="3283000" />
       <workItem from="1535371551426" duration="1272000" />
       <workItem from="1535415241046" duration="2978000" />
-      <workItem from="1535782267026" duration="8060000" />
+      <workItem from="1535782267026" duration="8618000" />
+      <workItem from="1536022415620" duration="112000" />
+      <workItem from="1536023136570" duration="31000" />
+      <workItem from="1536032814410" duration="1302000" />
+      <workItem from="1536115037207" duration="636000" />
+      <workItem from="1536117260741" duration="644000" />
+      <workItem from="1536118995938" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划">
       <created>1535332009646</created>
@@ -512,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535332009647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="动态规划">
+      <created>1535795486784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535795486784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,26 +473,26 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30977000" />
+    <option name="totallyTimeSpent" value="38333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10181237" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07409382" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23638344" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28976035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28976035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -562,6 +502,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24400872" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -584,61 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testAll/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo006_Backpack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAll/src/main/java/com/nixuan/reflect/service/reflectTest/ReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAll/testAll.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAll/src/main/java/com/nixuan/reflect/service/cglibExample/MyCglibFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAll/src/main/java/com/nixuan/reflect/service/cglibExample/CglibTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAll/src/main/java/com/nixuan/reflect/service/ProxyExample/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo001_Exchange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -679,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,23 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo001_Exchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo002_GoUpstairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -927,24 +772,17 @@
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo005_LCS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo004_LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="399">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo003_MinimumPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -952,6 +790,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo003_MinimumPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo002_GoUpstairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q09_dpProblem/Demo001_Exchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git的基本指令汇总/git的基本指令汇总.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameWork/Git/git基础/记录每次更新到仓库.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceSkill/SSH协议/SSH.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/软件安装/IntelliJ IDEA安装及破解/IDEA破解教程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q04_sortProblem/Demo006_heapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/testHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
