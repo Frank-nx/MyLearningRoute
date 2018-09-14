@@ -20,7 +20,7 @@ public class InputTest {
        // inputMutiLineNextLine();
         inputMutiLineNextLine1();
     }
-   // @Test
+
     public static void inputOneNum(){
         Scanner sc = new Scanner(System.in);
         int len = sc.nextInt();
