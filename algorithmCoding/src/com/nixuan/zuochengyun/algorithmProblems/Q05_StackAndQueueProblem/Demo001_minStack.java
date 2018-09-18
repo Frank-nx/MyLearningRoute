@@ -20,9 +20,14 @@ public class Demo001_minStack {
         }
     }
 
-    public void pop() {
-        data.pop();
+    public int pop() {
+        if(data.isEmpty()){
+            throw new RuntimeException("the stack is empty!");
+        }
+
+        int res = data.pop();
         min.pop();
+        return res;
     }
 
     public int top() {

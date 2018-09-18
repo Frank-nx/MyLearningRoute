@@ -13,7 +13,7 @@ import java.util.List;
  *
  * 给定一棵树的根结点，请返回两个调换了位置的值，其中小的值在前。
  */
-public class demo009_findErrorNode {
+public class Demo009_findErrorNode {
 
     public int[] findError(TreeNode root) {
         // write code here

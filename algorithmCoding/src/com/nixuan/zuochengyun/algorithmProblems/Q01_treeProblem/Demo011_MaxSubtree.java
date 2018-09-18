@@ -36,7 +36,10 @@ public class Demo011_MaxSubtree {
         MessageNode res = getMaxCore(root);
         return res.head;
     }
-
+/**
+ *创建一个新类型，用来存放头结点，节点数，最小节点值与最大节点值
+ *
+ */
     public static MessageNode getMaxCore(TreeNode root){
         if(root == null){
             return new MessageNode(null,0,Integer.MAX_VALUE,Integer.MIN_VALUE);

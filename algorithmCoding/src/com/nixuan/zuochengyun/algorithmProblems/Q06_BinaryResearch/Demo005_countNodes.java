@@ -9,10 +9,6 @@ import com.nixuan.util.TreeNode;
  * 给定树的根结点root，请返回树的大小。
  */
 
-
-
-
-
 public class Demo005_countNodes {
 
     public int count(TreeNode root) {

@@ -9,7 +9,13 @@ package com.nixuan.zuochengyun.algorithmProblems.Q06_BinaryResearch;
  */
 public class Demo001_getLessIndex {
 
-    public int getLessIndex(int[] arr) {
+    public static void main(String[] args) {
+        int[] arr = {6,4,3,2,1,0,7,8,9,10};
+        int res = getLessIndex(arr);
+        System.out.println(res);
+    }
+
+    public static int getLessIndex(int[] arr) {
         if(arr == null || arr.length <= 0){
             return -1;
         }

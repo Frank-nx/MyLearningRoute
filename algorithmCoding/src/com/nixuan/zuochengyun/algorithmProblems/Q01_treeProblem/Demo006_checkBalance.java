@@ -19,7 +19,7 @@ public class Demo006_checkBalance {
     public boolean check(TreeNode root) {
         // write code here
         int depth = checkBalance(root);
-        return depth == -1;
+        return depth != -1;
     }
 
     public int checkBalance(TreeNode root){
