@@ -1,55 +1,34 @@
 package com.nixuan.test1;
 
-
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.LinkedList;
 
 public class Main1 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int len = sc.nextInt();
-        if(len <= 0 ){
-            System.out.println(0);
-            return;
-        }
-        int[][] matrix = new int[len][len];
-        for (int i = 0; i < len; i++){
-            for(int j = 0; j < len; j++){
-                matrix[i][j] = sc.nextInt();
-            }
-        }
-        if(matrix == null && matrix.length <1){
-            System.out.println(0);
-            return;
-        }
-        int res = 0;
-        for(int i = 0;i<len;i++){
-            for(int j=0;j<len;j++){
-                if(matrix[i][j] == 1){
-                    res++;
-                    infect(matrix,i,j,len);
-                }
-            }
-        }
-        System.out.println(res);
+        int[] arr = {4,3,5,4,3,3,6,7};
+        int[] res = slipWindow(arr, 3);
+        System.out.println(Arrays.toString(res));
     }
 
-    private static void infect(int[][] matrix, int i, int j,int len) {
-        if(i > 0 && matrix[i-1][j]==1){
-            matrix[i-1][j] = 0;
-            infect(matrix,i-1,j,len);
+    public static int[] slipWindow(int[] arr,int k){
+        if(arr == null || arr.length < k || k < 1){
+            return null;
         }
-        if(i < len-1&&matrix[i+1][j]==1){
-            matrix[i+1][j] = 0;
-            infect(matrix,i+1,j,len);
+        LinkedList<Integer> dq = new LinkedList<>();
+        int[] res = new int[arr.length - k + 1];
+        for (int i = 0; i < arr.length; i++) {
+            while(!dq.isEmpty()&&arr[i]>=arr[dq.peekFirst()]){
+                dq.pollFirst();
+            }
+            dq.addFirst(i);
+            if(i-k >= dq.peekLast()){
+                dq.pollLast();
+            }
+            if(i >= k - 1){
+                res[i-k+1] = arr[dq.peekLast()];
+            }
         }
-        if(j>0&&matrix[i][j-1]==1){
-            matrix[i][j-1] = 0;
-            infect(matrix,i,j-1,len);
-        }
-        if(j<len-1&&matrix[i][j+1]==1){
-            matrix[i][j+1]=0;
-            infect(matrix,i,j+1,len);
-        }
+        return res;
     }
-
 }

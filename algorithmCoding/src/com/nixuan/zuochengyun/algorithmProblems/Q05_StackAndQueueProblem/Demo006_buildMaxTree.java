@@ -1,6 +1,9 @@
 package com.nixuan.zuochengyun.algorithmProblems.Q05_StackAndQueueProblem;
 
+import com.nixuan.util.TreeNode;
+
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Stack;
 
 /**
@@ -21,9 +24,12 @@ import java.util.Stack;
 public class Demo006_buildMaxTree {
 
     public static void main(String[] args) {
-        int[] arr = {36,1173,934,436};
-        int[] res = buildMaxTree(arr,arr.length);
-        System.out.println(Arrays.toString(res));
+        int[] arr = {3,1,4,2};
+        TreeNode root = buildMaxTree(arr);
+        String res = resial(root);
+        System.out.println(res);
+       /* int[] res = buildMaxTree(arr,arr.length);
+        System.out.println(Arrays.toString(res));*/
     }
 
     public static int[] buildMaxTree(int[] arr, int n) {
@@ -59,4 +65,77 @@ public class Demo006_buildMaxTree {
         }
         return res;
     }
+
+    public static TreeNode buildMaxTree(int[] arr){
+        if(arr == null || arr.length < 1){
+            return null;
+        }
+        int len = arr.length;
+        TreeNode[] nArr = new TreeNode[arr.length];
+        for(int i = 0; i < len; i++){
+            nArr[i] = new TreeNode(arr[i]);
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        HashMap<TreeNode,TreeNode> lMax = new HashMap<>();
+        HashMap<TreeNode,TreeNode> rMax = new HashMap<>();
+        for(int i = 0;i<len;i++){
+            while(!stack.isEmpty()&&stack.peek().val < nArr[i].val){
+                TreeNode cur = stack.pop();
+                lMax.put(cur,stack.isEmpty()?null:stack.peek());
+                rMax.put(cur,nArr[i]);
+            }
+            stack.push(nArr[i]);
+        }
+        while(!stack.isEmpty()){
+            TreeNode cur = stack.pop();
+            lMax.put(cur,stack.isEmpty()?null:stack.peek());
+            rMax.put(cur,null);
+        }
+        TreeNode head = null;
+        for(int i = 0; i < nArr.length; i++){
+            TreeNode left = lMax.get(nArr[i]);
+            TreeNode right = rMax.get(nArr[i]);
+            if(left == null && right == null){
+                head = nArr[i];
+                continue;
+            }
+            if(left == null){
+                right.rightNode = nArr[i];
+                continue;
+            }
+            if(right == null){
+                left.leftNode = nArr[i];
+                continue;
+            }
+            if(right.val > left.val){
+                left.leftNode = nArr[i];
+            }else{
+                right.rightNode = nArr[i];
+            }
+        }
+        return head;
+    }
+
+    public static String resial(TreeNode root){
+        if(root == null){
+            return "#_";
+        }
+        StringBuffer sb = new StringBuffer();
+        sb.append(root.val + "_");
+        sb.append(resial(root.leftNode));
+        sb.append(resial(root.rightNode));
+        return sb.toString();
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+

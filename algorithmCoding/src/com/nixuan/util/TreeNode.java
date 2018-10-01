@@ -6,6 +6,7 @@ public class TreeNode {
     public Integer val;
     public TreeNode leftNode;
     public TreeNode rightNode;
+    public TreeNode parent;
 
     public TreeNode(){}
 

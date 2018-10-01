@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         if(s == null){
@@ -23,5 +23,16 @@ public class Main {
             map.put(s.charAt(i),i);
         }
         System.out.println(res);
+    }*/
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int len = Integer.parseInt(sc.nextLine());
+        String[] regex = new String[len];
+        String[] target = new String[len];
+        for(int i=0;i<len;i++){
+            regex[i] = sc.nextLine();
+            target[i] = sc.nextLine();
+        }
     }
 }
