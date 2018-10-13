@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class Demo003_preTraversal {
+public class Code004_inTraversal {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -18,38 +18,39 @@ public class Demo003_preTraversal {
         root.rightNode.leftNode = new TreeNode(5);
 
         List<Integer> list = new ArrayList<>();
-        List<Integer> res = preTravesalRec(root,list);
+        List<Integer> res = inTraversalRec(root,list);
         System.out.println(res);
-        List<Integer> res1 = preTravesal(root);
+        List<Integer> res1 = inTraversal(root);
         System.out.println(res1);
     }
 
-    public static List<Integer> preTravesalRec(TreeNode root, List<Integer> list){
+    public static List<Integer> inTraversalRec(TreeNode root,List<Integer> list){
         if(root == null){
             return null;
         }
+        inTraversalRec(root.leftNode,list);
         list.add(root.val);
-        preTravesalRec(root.leftNode,list);
-        preTravesalRec(root.rightNode,list);
+        inTraversalRec(root.rightNode,list);
         return list;
     }
 
-    public static List<Integer> preTravesal(TreeNode root){
+    public static List<Integer> inTraversal(TreeNode root){
         if(root == null){
             return null;
         }
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-
-        while(!stack.isEmpty()){
-            TreeNode cur = stack.pop();
-            res.add(cur.val);
-            if(cur.rightNode != null){
-                stack.push(cur.rightNode);
+        TreeNode cur = root;
+        while(true){
+            while(cur != null){
+                stack.push(cur);
+                cur = cur.leftNode;
             }
-            if(cur.leftNode != null){
-                stack.push(cur.leftNode);
+            cur = stack.pop();
+            res.add(cur.val);
+            cur = cur.rightNode;
+            if(stack.isEmpty()&&cur == null){
+                break;
             }
         }
         return res;

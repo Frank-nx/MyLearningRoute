@@ -11,7 +11,7 @@ import java.util.List;
  * @author: nixuan
  * @create: 2018-09-27 07:43
  **/
-public class Demo015_MorrisTravel {
+public class Code015_MorrisTravel {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.leftNode = new TreeNode(2);

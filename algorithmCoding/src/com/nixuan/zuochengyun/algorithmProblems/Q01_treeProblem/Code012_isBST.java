@@ -10,7 +10,7 @@ import java.util.Stack;
  * @author: nixuan
  * @create: 2018-09-18 11:05
  **/
-public class Demo012_isBST {
+public class Code012_isBST {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(8);
@@ -22,6 +22,8 @@ public class Demo012_isBST {
         root.rightNode.rightNode = new TreeNode(13);
 
         System.out.println(isBST(root));
+        System.out.println(isBSTRec(root,new int[]{Integer.MIN_VALUE}));
+        System.out.println(isBST1(root));
     }
 
     public static boolean isBST(TreeNode root){
@@ -41,6 +43,42 @@ public class Demo012_isBST {
                 }
                 last = root.val;
                 root = root.rightNode;
+            }
+        }
+        return true;
+    }
+
+    public static boolean isBSTRec(TreeNode root,int[] pre){
+        if(root == null){
+            return true;
+        }
+        boolean left = isBSTRec(root.leftNode,pre);
+        if(!left || pre[0] > root.val){
+            return false;
+        }
+        pre[0] = root.val;
+        boolean right = isBSTRec(root.rightNode, pre);
+        return left && right;
+    }
+
+    public static boolean isBST1(TreeNode root){
+        if(root == null){
+            return true;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        int pre = Integer.MIN_VALUE;
+        TreeNode cur = root;
+        while(!stack.isEmpty() || cur != null){
+            if(cur != null){
+                stack.push(cur);
+                cur = cur.leftNode;
+            }else{
+                cur = stack.pop();
+                if(cur.val < pre){
+                    return false;
+                }
+                pre = cur.val;
+                cur = cur.rightNode;
             }
         }
         return true;

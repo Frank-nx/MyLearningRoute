@@ -1,4 +1,4 @@
-package com.nixuan.zuochengyun.algorithmProblems.Q11_algorithm;
+package com.nixuan.zuochengyun.algorithmProblems.Q12_algorithm;
 
 import java.util.Arrays;
 

@@ -16,7 +16,7 @@ import java.util.List;
  * 返回：["down"]
  *
  */
-public class Demo008_FoldPaper {
+public class Code008_FoldPaper {
 
     public String[] foldPaper(int n) {
         // write code here

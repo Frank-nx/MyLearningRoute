@@ -22,8 +22,10 @@ public class Demo010_AllLessNumSubArray {
         int[] arr = {1,4,2,5,3,4,2,6,7,9,4,234,546,34,76,4};
         int res = allLessNumSubArray(arr,2);
         int standard = getNum(arr,2);
+        int res1 = validNum(arr,2);
         System.out.println(res);
         System.out.println(standard);
+        System.out.println(res1);
     }
 
     public static int allLessNumSubArray(int[] arr,int num){
@@ -93,6 +95,41 @@ public class Demo010_AllLessNumSubArray {
             }
             res += j - i;
             i++;
+        }
+        return res;
+    }
+
+
+    public static int validNum(int[] arr, int num){
+        if(arr == null || arr.length < 1){
+            return 0;
+        }
+        LinkedList<Integer> min = new LinkedList<>();
+        LinkedList<Integer> max = new LinkedList<>();
+        int cur = 0;
+        int res = 0;
+        for(int i=0;i<arr.length;i++){
+            while(cur < arr.length){
+                while(!min.isEmpty() && arr[cur]<=arr[min.peekLast()]){
+                    min.pollLast();
+                }
+                min.addLast(cur);
+                while(!max.isEmpty()&&arr[cur]>=arr[max.peekLast()]){
+                    max.pollLast();
+                }
+                max.addLast(cur);
+                if(arr[max.peekFirst()]-arr[min.peekFirst()]>num){
+                    break;
+                }
+                cur++;
+            }
+            if(max.peekFirst() == i){
+                max.pollFirst();
+            }
+            if(min.peekFirst() == i){
+                min.pollFirst();
+            }
+            res += cur - i;
         }
         return res;
     }

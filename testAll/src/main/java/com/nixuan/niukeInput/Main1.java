@@ -4,16 +4,21 @@ import java.util.Scanner;
 
 public class Main1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int len = sc.nextInt();
-        int[] arr = new int[len];
-        if(len < 3){
-            System.out.println("0");
-        }
-        for (int i=0; i < len; i++){
-            arr[i] = sc.nextInt();
-        }
 
+        System.out.println(step(10));
 
+    }
+
+    public static int step(int n){
+        if(n == 1){
+            return 1;
+        }
+        if(n==2){
+            return 2;
+        }
+        if(n == 3){
+            return 4;
+        }
+        return step(n-1)+step(n-2)+step(n-3);
     }
 }

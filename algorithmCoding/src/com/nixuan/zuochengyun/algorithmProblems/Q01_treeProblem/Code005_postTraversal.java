@@ -5,7 +5,7 @@ import com.nixuan.util.TreeNode;
 
 import java.util.*;
 
-public class Demo005_postTraversal {
+public class Code005_postTraversal {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

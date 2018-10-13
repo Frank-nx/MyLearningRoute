@@ -19,7 +19,7 @@ import java.util.Queue;
  * 4、遍历完则为真
  */
 
-public class Demo007_checkCompletion {
+public class Code007_checkCompletion {
 
     public boolean chk(TreeNode root) {
         // write code here

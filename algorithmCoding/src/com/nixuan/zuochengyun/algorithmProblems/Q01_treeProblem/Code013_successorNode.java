@@ -8,7 +8,7 @@ import com.nixuan.util.TreeNode;
  * @author: nixuan
  * @create: 2018-09-22 16:31
  **/
-public class Demo013_successorNode {
+public class Code013_successorNode {
 
     public static void main(String[] args) {
         TreeNode head = new TreeNode(6);

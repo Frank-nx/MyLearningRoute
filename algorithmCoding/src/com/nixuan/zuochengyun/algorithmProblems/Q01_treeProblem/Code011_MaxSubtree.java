@@ -8,7 +8,7 @@ import com.nixuan.util.TreeNode;
  * 给定二叉树的头结点root，请返回所求的头结点,若出现多个节点最多的子树，返回头结点权值最大的。
  */
 
-public class Demo011_MaxSubtree {
+public class Code011_MaxSubtree {
 
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(1);
@@ -17,15 +17,22 @@ public class Demo011_MaxSubtree {
         TreeNode node4 = new TreeNode(4);
         TreeNode node5 = new TreeNode(5);
         TreeNode node6 = new TreeNode(6);
+        TreeNode node7 = new TreeNode(7);
+        TreeNode node8 = new TreeNode(8);
 
         node4.leftNode = node2;
-        node4.rightNode = node6;
+        node4.rightNode = node7;
+        //node4.rightNode = node6;
         node2.leftNode = node1;
         node2.rightNode = node5;
-        node6.leftNode = node3;
+        //node6.leftNode = node3;
+        node7.leftNode = node6;
+        node7.rightNode = node8;
+
 
         TreeNode res = getMax(node4);
         System.out.println(res.val);
+        System.out.println(solution(node4).val);
     }
 
     public static TreeNode getMax(TreeNode root) {
@@ -71,5 +78,66 @@ public class Demo011_MaxSubtree {
             this.min = min;
             this.max = max;
         }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private static class Node{
+        private int size;
+        private TreeNode head;
+        private int min;
+        private int max;
+
+        public Node(int size,TreeNode head, int min, int max){
+            this.size = size;
+            this.head = head;
+            this.min = min;
+            this.max = max;
+        }
+    }
+
+    public  static TreeNode solution(TreeNode root){
+        if(root == null){
+            return null;
+        }
+        return core(root).head;
+    }
+
+    public static Node core(TreeNode root){
+        if(root == null){
+            return new Node(0,null,Integer.MAX_VALUE,Integer.MIN_VALUE);
+        }
+        TreeNode leftChild = root.leftNode;
+        Node left = core(leftChild);
+        TreeNode rightChild = root.rightNode;
+        Node right = core(rightChild);
+        if(root.leftNode == left.head && root.rightNode == right.head &&
+                left.max < root.val && right.min > root.val){
+            Node res = new Node(left.size+right.size+1,root,left.min,right.max);
+            res.min = left.head == null?root.val:res.min;
+            res.max = right.head == null?root.val:res.max;
+            return res;
+        }
+        if(left.size == right.size){
+            return left.head.val > right.head.val?left:right;
+        }
+        return left.size > right.size ? left : right;
     }
 }
