@@ -4,14 +4,20 @@ import java.util.Scanner;
 public class Main2 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int[][] matrix = new int[row][3];
-        for (int i = 0; i < row; i++) {
-            for(int j=0;j<3;j++){
-                matrix[i][j] = sc.nextInt();
-            }
+        int[] arr = {1,2,3,4};
+        process(arr,"",0);
+    }
+
+    public static void process(int[] arr,String res,int time){
+        if(time == 3){
+            System.out.println(res);
+            return;
+        //   return res;
         }
+        for(int i = 0; i < arr.length;i++){
+            process(arr,res+arr[i],time+1);
+        }
+       // return res;
     }
 
 }
