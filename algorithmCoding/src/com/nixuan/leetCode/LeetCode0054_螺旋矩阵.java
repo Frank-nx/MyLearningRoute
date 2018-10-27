@@ -1,26 +1,27 @@
-package com.nixuan.zuochengyun.algorithmProblems.Q10_matrixProblem;
+package com.nixuan.leetCode;
 
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @program: MyLearningRoute
- * @description: 旋转打印数组
+ * @description:
  * @author: nixuan
- * @create: 2018-09-14 15:42
+ * @create: 2018-10-27 09:20
  **/
-public class Code001_rotatePrintMatrix {
+public class LeetCode0054_螺旋矩阵 {
 
     public static void main(String[] args) {
         int[][] matrix = {
-            {1,2,3,4},
-            {5,6,7,8},
-            {9,10,11,12},
-            {13,14,15,16}
+                {1,2,3,4},
+                {5,6,7,8},
+                {9,10,11,12},
+                {13,14,15,16}
         };
-      //  rotateMatrix(matrix);
+        System.out.println(spiralOrder(matrix));
     }
-    public List<Integer> spiralOrder(int[][] matrix) {
+
+    public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new LinkedList<>();
         if(matrix == null || matrix.length < 1){
             return  res;
@@ -35,7 +36,7 @@ public class Code001_rotatePrintMatrix {
         return res;
     }
 
-    private void spiralOutside(int[][] matrix, int upRow, int upCol, int downRow, int downCol, List<Integer> res) {
+    private static void spiralOutside(int[][] matrix, int upRow, int upCol, int downRow, int downCol, List<Integer> res) {
         if(upRow == downRow){
             for (int i = upCol; i <= downCol; i++) {
                 res.add(matrix[upRow][i]);

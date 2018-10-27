@@ -18,12 +18,12 @@ public class Code002_rotateMatrix {
                 {13,14,15,16}
         };
         ArrayMatrix.printMatrix(matrix);
-        rotateMatrix(matrix);
+        rotate(matrix);
         System.out.println("==========");
         ArrayMatrix.printMatrix(matrix);
     }
 
-    public static void rotateMatrix(int[][] matrix){
+    public static void rotate(int[][] matrix){
         if(matrix == null){
             return;
         }
@@ -37,10 +37,11 @@ public class Code002_rotateMatrix {
         while(upRow < downRow){
             rotateOutside(matrix,upRow++,upCol++,downRow--,downCol--);
         }
+
     }
 
     private static void rotateOutside(int[][] matrix, int upRow, int upCol, int downRow, int downCol) {
-        for(int i = upCol; i < downCol; i++){
+        for(int i = 0; i < downCol-upCol; i++){
             int temp = matrix[upRow][upCol+i];
             matrix[upRow][upCol+i] = matrix[downRow-i][upCol];
             matrix[downRow-i][upCol] = matrix[downRow][downCol-i];

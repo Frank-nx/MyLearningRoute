@@ -21,4 +21,11 @@ public class TestClass {
         imple("tom");
         imple("jack");
     }
+
+    @Test
+    public void test1(){
+        String s = "sbd";
+        s = "dfdfsf";
+        System.out.println(Integer.MIN_VALUE);
+    }
 }
