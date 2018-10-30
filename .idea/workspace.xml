@@ -5,94 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23236b8-1c80-44e5-a582-b5fb2c6c7ce1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0101_对称二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0102_二叉树的层次遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0103_二叉树的锯齿形层次遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0104_二叉树的最大深度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0105_从前序与中序遍历序列构造二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0106_从中序与后序遍历序列构造二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0107_二叉树的层次遍历2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0108_将有序数组转换为二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0109_有序链表转换二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0089_格雷编码.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0090_子集2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0091_解码方式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0092_反转链表2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0093_复原IP地址.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0094_二叉树的中序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0095_不同的二叉搜索树2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0098_验证二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0100_相同的数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/util/CollectionsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0110_平衡二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0111_二叉树的最小深度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0112_路径总和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0113_路径总和2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0114_二叉树展开为链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0001_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0002_AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0002_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0003_LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0003_LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0004_两个排序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0004_两个排序数组的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0005_LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0005_LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0006_ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0006_ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0007_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0007_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0008_StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0008_StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0009_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0009_PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0011_ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0011_ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0012_IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0012_IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0013_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0013_RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0014_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0015_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0015_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0016_最接近的三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0016_最接近的三数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0017_电话号码的字符组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0017_电话号码的字符组合.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0018_四数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0018_四数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0019_删除链表的倒数第N个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0019_删除链表的倒数第N个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0020_有效的括号.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0020_有效的括号.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0021_合并两个有序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0021_合并两个有序链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0022_括号生成.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0022_括号生成.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0024_两两交换链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0024_两两交换链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0026_删除排序数组中的重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0026_删除排序数组中的重复项.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0027_移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0027_移除元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0028_实现strStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0028_实现strStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0029_两数相除.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0029_两数相除.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0031_下一个排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0031_下一个排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0033_搜索旋转排序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0033_搜索旋转排序数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0034_在排序数组中查找元素的第一个和最后一个位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0034_在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0035_搜索插入位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0035_搜索插入位置.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0036_有效的数独.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0036_有效的数独.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0038_报数.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0038_报数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0039_组合总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0039_组合总和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0040_组合总和2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0040_组合总和2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0043_字符串相乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0043_字符串相乘.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0046_全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0046_全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0047_前排列2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0047_前排列2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0049_字母异位词分组.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0049_字母异位词分组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0050_x的n次幂函数.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0050_x的n次幂函数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0053_最大子序和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0053_最大子序和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0054_螺旋矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0054_螺旋矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0055_跳跃游戏.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0055_跳跃游戏.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0056_合并区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0056_合并区间.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0058_最后一个单词的长度.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0058_最后一个单词的长度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0059_螺旋矩阵2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0059_螺旋矩阵2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0060_第K个排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0060_第K个排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0061_旋转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0061_旋转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0062_不同路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0062_不同路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0063_不同路径2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0063_不同路径2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0064_最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0064_最小路径和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0066_加1.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0066_加1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0067_二进制求和.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0067_二进制求和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0070_爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0070_爬楼梯.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0071_简化路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0071_简化路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0073_矩阵置零.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0073_矩阵置零.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0074_搜索二维矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0074_搜索二维矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0075_颜色分类.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0075_颜色分类.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0077_组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0077_组合.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0078_子集.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0078_子集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0079_单词搜索.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0079_单词搜索.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0080_删除排序数组中的重复项2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0080_删除排序数组中的重复项2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0081_搜索旋转排序数组2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0081_搜索旋转排序数组2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0082_删除排序链表中的重复元素2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0082_删除排序链表中的重复元素2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0083_删除排序链表中的重复元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0083_删除排序链表中的重复元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0086_分割链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0086_分割链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0088_合并两个有序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0088_合并两个有序数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode048_旋转图像.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode048_旋转图像.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testAll/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,68 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode0103_二叉树的锯齿形层次遍历.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0103_二叉树的锯齿形层次遍历.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode0104_二叉树的最大深度.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0104_二叉树的最大深度.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode0105_从前序与中序遍历序列构造二叉树.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0105_从前序与中序遍历序列构造二叉树.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode0106_从中序与后序遍历序列构造二叉树.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0106_从中序与后序遍历序列构造二叉树.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode0107_二叉树的层次遍历2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0107_二叉树的层次遍历2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LeetCode0108_将有序数组转换为二叉搜索树.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0108_将有序数组转换为二叉搜索树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="138">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode0109_有序链表转换二叉搜索树.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode0109_有序链表转换二叉搜索树.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0109_有序链表转换二叉搜索树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="506">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,29 +46,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code001_printTreeByLevel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code001_printTreeByLevel.java">
+      <file leaf-file-name="LeetCode0110_平衡二叉树.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0110_平衡二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="690">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/TreeNode.java">
+      <file leaf-file-name="LeetCode0111_二叉树的最小深度.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0111_二叉树的最小深度.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="713">
+              <caret line="31" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="treeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/treeTest.java">
+      <file leaf-file-name="LeetCode0112_路径总和.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0112_路径总和.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="506">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode0113_路径总和2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0113_路径总和2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode0114_二叉树展开为链表.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0114_二叉树展开为链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code012_isBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code012_isBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code007_checkCompletion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code007_checkCompletion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code006_checkBalance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code006_checkBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -234,11 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0050_x的n次幂函数.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0053_最大子序和.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q10_matrixProblem/Code001_rotatePrintMatrix.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0054_螺旋矩阵.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0055_跳跃游戏.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0056_合并区间.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0058_最后一个单词的长度.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode0059_螺旋矩阵2.java" />
@@ -285,6 +189,11 @@
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0107_二叉树的层次遍历2.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0108_将有序数组转换为二叉搜索树.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0109_有序链表转换二叉搜索树.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0110_平衡二叉树.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0111_二叉树的最小深度.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0112_路径总和.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0113_路径总和2.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0114_二叉树展开为链表.java" />
       </list>
     </option>
   </component>
@@ -329,8 +238,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-115" />
-    <option name="y" value="21" />
+    <option name="x" value="25" />
+    <option name="y" value="-15" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
@@ -340,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -464,6 +371,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,7 +403,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0098_验证二叉搜索树">
+  <component name="RunManager" selected="Application.LeetCode0114_二叉树展开为链表">
     <configuration name="最长无重复字符子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testMethod.最长无重复字符子串" />
       <module name="MyLearningRoute" />
@@ -502,17 +411,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LeetCode0092_反转链表2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode1_100.LeetCode0092_反转链表2" />
-      <module name="MyLearningRoute" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nixuan.leetCode.LeetCode1_100.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -557,6 +455,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nixuan.leetCode.LeetCode1_100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LeetCode0114_二叉树展开为链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode101_200.LeetCode0114_二叉树展开为链表" />
+      <module name="MyLearningRoute" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nixuan.leetCode.LeetCode101_200.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -680,19 +589,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode0092_反转链表2" />
       <item itemvalue="Application.LeetCode0093_复原IP地址" />
       <item itemvalue="Application.LeetCode0094_二叉树的中序遍历" />
       <item itemvalue="Application.LeetCode0095_不同的二叉搜索树2" />
       <item itemvalue="Application.LeetCode0098_验证二叉搜索树" />
+      <item itemvalue="Application.LeetCode0114_二叉树展开为链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0114_二叉树展开为链表" />
         <item itemvalue="Application.LeetCode0098_验证二叉搜索树" />
         <item itemvalue="Application.LeetCode0095_不同的二叉搜索树2" />
         <item itemvalue="Application.LeetCode0094_二叉树的中序遍历" />
         <item itemvalue="Application.LeetCode0093_复原IP地址" />
-        <item itemvalue="Application.LeetCode0092_反转链表2" />
       </list>
     </recent_temporary>
   </component>
@@ -761,6 +670,8 @@
       <workItem from="1540602565467" duration="23863000" />
       <workItem from="1540643165984" duration="8929000" />
       <workItem from="1540689758533" duration="35146000" />
+      <workItem from="1540791033072" duration="3370000" />
+      <workItem from="1540801017566" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划">
       <created>1535332009646</created>
@@ -832,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540652616738</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="18道leetCode算法题">
+      <created>1540791099068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540791099068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,10 +783,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486366000" />
+    <option name="totallyTimeSpent" value="492303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -880,24 +799,24 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.12044271" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23638344" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3922652" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3922652" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.08839779" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2903646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971353" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32033426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30222842" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30110496" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32033426" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,70 +834,15 @@
     <MESSAGE value="树" />
     <MESSAGE value="更新算法题" />
     <MESSAGE value="26道leetCode算法题" />
-    <option name="LAST_COMMIT_MESSAGE" value="26道leetCode算法题" />
+    <MESSAGE value="18道leetCode算法题" />
+    <option name="LAST_COMMIT_MESSAGE" value="18道leetCode算法题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="73" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0031_下一个排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0033_搜索旋转排序数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0034_在排序数组中查找元素的第一个和最后一个位置.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0035_搜索插入位置.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0036_有效的数独.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0038_报数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode048_旋转图像.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0049_字母异位词分组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0050_x的n次幂函数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1109,9 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,9 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,9 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,9 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,19 +1022,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200.java" />
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode1_100/LeetCode0100_相同的数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1204,9 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,26 +1051,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/treeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="759">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/TreeNode1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/TreeNode1" />
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/util/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1250,51 +1078,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code001_printTreeByLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="920">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0103_二叉树的锯齿形层次遍历.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="736">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0104_二叉树的最大深度.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0105_从前序与中序遍历序列构造二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0106_从中序与后序遍历序列构造二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="299">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0107_二叉树的层次遍历2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="920">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1304,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0108_将有序数组转换为二叉搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1314,11 +1133,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0109_有序链表转换二叉搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="506">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code012_isBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code007_checkCompletion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/zuochengyun/algorithmProblems/Q01_treeProblem/Code006_checkBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0110_平衡二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0111_二叉树的最小深度.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0112_路径总和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0113_路径总和2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode101_200/LeetCode0114_二叉树展开为链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
