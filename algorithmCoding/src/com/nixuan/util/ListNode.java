@@ -43,6 +43,7 @@ public class ListNode {
 
     public static void printList(ListNode head){
         if(head == null){
+            System.out.println("null");
             return;
         }
         ListNode cur = head;
