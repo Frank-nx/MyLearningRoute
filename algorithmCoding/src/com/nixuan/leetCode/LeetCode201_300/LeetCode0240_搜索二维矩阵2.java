@@ -6,7 +6,7 @@ package com.nixuan.leetCode.LeetCode201_300;
  * @author: nixuan
  * @create: 2018-11-17 17:21
  **/
-public class LeetCode240_搜索二维矩阵2 {
+public class LeetCode0240_搜索二维矩阵2 {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length < 1 || matrix[0].length < 1|| target < matrix[0][0]
