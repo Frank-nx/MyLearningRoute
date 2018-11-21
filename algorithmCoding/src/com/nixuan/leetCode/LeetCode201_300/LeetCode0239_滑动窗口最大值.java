@@ -1,7 +1,6 @@
 package com.nixuan.leetCode.LeetCode201_300;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @program: MyLearningRoute
