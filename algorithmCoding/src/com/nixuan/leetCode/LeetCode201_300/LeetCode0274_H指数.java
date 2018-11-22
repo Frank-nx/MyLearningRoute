@@ -25,7 +25,6 @@ public class LeetCode0274_H指数 {
         while(left <= right){
             int mid = ((right-left)>>1)+left;
             int num = len - mid;
-            System.out.println(num);
             if(citations[mid] >= num){
                 right = mid - 1;
             }else{
