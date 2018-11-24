@@ -37,4 +37,29 @@ public class LeetCode0287_寻找重复数 {
         }
         return res;
     }
+
+    // 方法二：使用有环链表的思想
+    public int findDuplicate1(int[] nums) {
+        if(nums == null || nums.length < 2){
+            return 0;
+        }
+        int slow = 0;
+        int fast = 0;
+        while(true){
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+            if(slow == fast){
+                break;
+            }
+        }
+        fast = 0;
+        while(true){
+            slow = nums[slow];
+            fast = nums[fast];
+            if (slow == fast){
+                break;
+            }
+        }
+        return slow;
+    }
 }
