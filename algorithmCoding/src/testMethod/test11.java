@@ -1,6 +1,7 @@
 package testMethod;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -12,24 +13,10 @@ import java.util.Scanner;
 public class test11 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        ArrayList<Integer> list = new ArrayList<>();
-        while(in.hasNextInt()){
-            list.add(in.nextInt());
-        }
-        int[] res = new int[list.size()];
-        int head = 0;
-        int tail = res.length-1;
-        int count = 0;
-        while(head < tail){
-            res[count++] = list.get(head++);
-            if(count < res.length){
-                res[count++] = list.get(tail--);
-            }
-        }
-        for (int i=0;i<res.length;i++){
-            System.out.println("node = "+res[i]);
-            System.out.println();
-        }
+        String str = "12,";
+        String[] a = str.split("[,，]");
+        System.out.println(Arrays.toString(a));
+        System.out.println(true ^ true);
+        System.out.println(true ^ false);
     }
 }
