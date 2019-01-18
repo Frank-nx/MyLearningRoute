@@ -13,10 +13,9 @@ import java.util.Scanner;
 public class test11 {
 
     public static void main(String[] args) {
-        String str = "12,";
-        String[] a = str.split("[,，]");
-        System.out.println(Arrays.toString(a));
-        System.out.println(true ^ true);
-        System.out.println(true ^ false);
+        int[] res = new int[0];
+        for (int i:res){
+            System.out.println(res[i]);
+        }
     }
 }
