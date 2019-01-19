@@ -20,5 +20,7 @@ public class test {
         obj.update(1,2);
         System.out.println("tree"+Arrays.toString(obj.tree));
         System.out.println("sumRange(0,2):"+obj.sumRange(0,2));
+
+        System.out.println(Math.sqrt(808201));
     }
 }
