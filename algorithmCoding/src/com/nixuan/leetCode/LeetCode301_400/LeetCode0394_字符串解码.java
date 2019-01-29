@@ -45,7 +45,6 @@ public class LeetCode0394_字符串解码 {
                 for (int i = 0; i < time; i++) {
                     sb.append(res);
                 }
-
                 res = sb.toString();
             }
             index++;
