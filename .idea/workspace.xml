@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23236b8-1c80-44e5-a582-b5fb2c6c7ce1" name="Default" comment="2道leetCode算法题">
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0395_至少有k个重复字符的最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0396_旋转函数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0399_除法求值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0400_第N个数字.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmCoding/src/testMethod/testRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmCoding/src/testMethod/testRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/路径中左斜线与右斜线的区别/路径中左斜线与右斜线的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/路径中左斜线与右斜线的区别/路径中左斜线与右斜线的区别.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testAll/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,37 +21,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0393_UTF_8编码验证.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <entry file="file://$PROJECT_DIR$/practiceSkill/与数学有关的知识点/卡特兰数/卡特兰数.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/路径中左斜线与右斜线的区别/路径中左斜线与右斜线的区别.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="667">
+                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0395_至少有k个重复字符的最长子串.java">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0399_除法求值.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="298">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0396_旋转函数.java">
+        <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0400_第N个数字.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="213">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,10 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0309_最佳买卖股票时机含冷冻期.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/util/TimeMesureUtil.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/util/interfaces/TimeMeasure.java" />
-        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0313_超级丑数.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0318_最大单词长度乘积.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0319_灯泡开关.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/util/TimeMeasureUtil.java" />
@@ -184,6 +195,10 @@
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0395_至少有k个重复字符的最长子串.java" />
         <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0396_旋转函数.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/testMethod/testRegex.java" />
+        <option value="$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/路径中左斜线与右斜线的区别/路径中左斜线与右斜线的区别.md" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0399_除法求值.java" />
+        <option value="$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0400_第N个数字.java" />
       </list>
     </option>
   </component>
@@ -218,9 +233,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="597" />
-    <option name="y" value="169" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="154" />
+    <option name="y" value="39" />
     <option name="width" value="1601" />
     <option name="height" value="1100" />
   </component>
@@ -230,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,20 +291,20 @@
             <path>
               <item name="MyLearningRoute1" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLearningRoute1" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testMethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLearningRoute1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLearningRoute1" type="462c0819:PsiDirectoryNode" />
               <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLearningRoute1" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLearningRoute1" type="462c0819:PsiDirectoryNode" />
               <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
-              <item name="linux、shell与指令相关知识点" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBasicKnowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLearningRoute1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLearningRoute1" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBasicKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="路径中左斜线与右斜线的区别" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLearningRoute1" type="b2602c69:ProjectViewProjectNode" />
@@ -301,14 +316,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548756526624" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vip-monitor-tools-19.1.29" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552051410241" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vip-monitor-tools-19.3.5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -333,35 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0395_至少有k个重复字符的最长子串">
-    <configuration name="LeetCode0392_判断子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode301_400.LeetCode0392_判断子序列" />
-      <module name="MyLearningRoute" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nixuan.leetCode.LeetCode301_400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode0393_UTF_8编码验证" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode301_400.LeetCode0393_UTF_8编码验证" />
-      <module name="MyLearningRoute" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nixuan.leetCode.LeetCode301_400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetCode0400_第N个数字">
     <configuration name="LeetCode0394_字符串解码" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode301_400.LeetCode0394_字符串解码" />
       <module name="MyLearningRoute" />
@@ -378,6 +365,20 @@
     </configuration>
     <configuration name="LeetCode0395_至少有k个重复字符的最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode301_400.LeetCode0395_至少有k个重复字符的最长子串" />
+      <module name="MyLearningRoute" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nixuan.leetCode.LeetCode301_400.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0400_第N个数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nixuan.leetCode.LeetCode301_400.LeetCode0400_第N个数字" />
       <module name="MyLearningRoute" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -410,6 +411,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testMethod.testRegex" />
+      <module name="MyLearningRoute" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -426,18 +441,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.test11" />
-      <item itemvalue="Application.LeetCode0392_判断子序列" />
-      <item itemvalue="Application.LeetCode0393_UTF_8编码验证" />
       <item itemvalue="Application.LeetCode0394_字符串解码" />
       <item itemvalue="Application.LeetCode0395_至少有k个重复字符的最长子串" />
+      <item itemvalue="Application.testRegex" />
+      <item itemvalue="Application.LeetCode0400_第N个数字" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0400_第N个数字" />
+        <item itemvalue="Application.testRegex" />
         <item itemvalue="Application.LeetCode0395_至少有k个重复字符的最长子串" />
         <item itemvalue="Application.LeetCode0394_字符串解码" />
         <item itemvalue="Application.test11" />
-        <item itemvalue="Application.LeetCode0393_UTF_8编码验证" />
-        <item itemvalue="Application.LeetCode0392_判断子序列" />
       </list>
     </recent_temporary>
   </component>
@@ -571,7 +586,11 @@
       <workItem from="1548557763907" duration="5426000" />
       <workItem from="1548638376797" duration="968000" />
       <workItem from="1548725319231" duration="631000" />
-      <workItem from="1548727426139" duration="6096000" />
+      <workItem from="1548727426139" duration="6194000" />
+      <workItem from="1551754424448" duration="193000" />
+      <workItem from="1551946034807" duration="1134000" />
+      <workItem from="1551962352492" duration="1260000" />
+      <workItem from="1552010782092" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划">
       <created>1535332009646</created>
@@ -881,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548568203544</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="2道leetCode算法题">
+      <created>1548757016021</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1548757016021</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -917,12 +943,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="805659000" />
+    <option name="totallyTimeSpent" value="815371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="597" y="169" width="1601" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3724854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -931,7 +957,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32033426" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23061013" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24160346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2611051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1038,45 +1064,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0326_3的幂.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0328_奇偶链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0331_验证二叉树的前序序列化.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0334_递增的三元子序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0337_打家劫舍3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0338_比特位计数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -1401,6 +1388,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0395_至少有k个重复字符的最长子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0396_旋转函数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/testRegex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceSkill/与数学有关的知识点/卡特兰数/卡特兰数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmCoding/src/testMethod/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1446,24 +1476,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0394_字符串解码.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+    <entry file="file://$PROJECT_DIR$/practiceSkill/JavaBasicKnowledge/路径中左斜线与右斜线的区别/路径中左斜线与右斜线的区别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0395_至少有k个重复字符的最长子串.java">
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0399_除法求值.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="298">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0396_旋转函数.java">
+    <entry file="file://$PROJECT_DIR$/algorithmCoding/src/com/nixuan/leetCode/LeetCode301_400/LeetCode0400_第N个数字.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="213">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
