@@ -33,15 +33,70 @@ public class LeetCode0417_太平洋大西洋水流问题 {
                 { 8, 9, 4},
                 { 7, 6, 5}
         };
-        List<int[]> res = pacificAtlantic(matrix2);
+        int[][] matrix3={
+                {1,1},
+                {1,1},
+                {1,1}
+        };
+        List<int[]> res = pacificAtlantic1(matrix);
 
         for (int[] a:res) {
             System.out.println(Arrays.toString(a));
         }
     }
 
+    public static List<int[]> pacificAtlantic(int[][] matrix){
+        List<int[]> res = new LinkedList<>();
+        if (matrix == null || matrix.length < 1){
+            return res;
+        }
+        boolean[] help = new boolean[2];
+        boolean[][] visited = new boolean[matrix.length][matrix[0].length];
 
-    public static List<int[]> pacificAtlantic(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                help[0] = false;
+                help[1] = false;
+                pacificAtlanticCore(matrix,help,visited,i,j);
+                if (help[0] && help[1]){
+                    res.add(new int[]{i,j});
+                }
+            }
+        }
+        return res;
+    }
+
+    public static void pacificAtlanticCore(int[][] matrix,boolean[] help,boolean[][] visited,int curRow,int curCol){
+        if (curRow < 0 || curCol < 0 || curRow >= matrix.length || curCol >= matrix[0].length){
+            return;
+        }
+        if (curRow == 0 || curCol == 0){
+            help[0] = true;
+        }
+        if (curRow == matrix.length - 1 || curCol == matrix[0].length - 1){
+            help[1] = true;
+        }
+        if (help[0] && help[1]){
+            return;
+        }
+        visited[curRow][curCol] = true;
+        if (curRow > 0 && matrix[curRow][curCol] >=matrix[curRow - 1][curCol] && !visited[curRow-1][curCol]){
+            pacificAtlanticCore(matrix,help,visited,curRow-1,curCol);
+        }
+        if (curRow < matrix.length - 1 && matrix[curRow][curCol] >= matrix[curRow+1][curCol] && !visited[curRow+1][curCol]){
+            pacificAtlanticCore(matrix,help,visited,curRow+1,curCol);
+        }
+        if (curCol > 0 && matrix[curRow][curCol] >=matrix[curRow][curCol-1] && !visited[curRow][curCol-1]){
+            pacificAtlanticCore(matrix,help,visited,curRow,curCol-1);
+        }
+        if (curCol < matrix[0].length - 1 && matrix[curRow][curCol] >= matrix[curRow][curCol+1] && !visited[curRow][curCol+1]){
+            pacificAtlanticCore(matrix,help,visited,curRow,curCol+1);
+        }
+        visited[curRow][curCol] = false;
+    }
+
+    // 法二
+    public static List<int[]> pacificAtlantic1(int[][] matrix){
         List<int[]> res = new LinkedList<>();
         if (matrix == null || matrix.length < 1){
             return res;
@@ -50,17 +105,13 @@ public class LeetCode0417_太平洋大西洋水流问题 {
         boolean[][] atlantic = new boolean[matrix.length][matrix[0].length];
 
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                pacificCore(matrix,pacific,i,j);
-                atlanticCore(matrix,atlantic,i,j);
-            }
+            pacificAtlanticDFS(matrix,pacific,i,0,matrix[i][0]);
+            pacificAtlanticDFS(matrix,atlantic,i,matrix[0].length-1,matrix[i][matrix[0].length-1]);
         }
-
-        System.out.println("---------------");
-        ArrayMatrix.printMatrix(pacific);
-        System.out.println("---------------");
-        ArrayMatrix.printMatrix(atlantic);
-        System.out.println("---------------");
+        for (int i = 0; i < matrix[0].length; i++) {
+            pacificAtlanticDFS(matrix,pacific,0,i,matrix[0][i]);
+            pacificAtlanticDFS(matrix,atlantic,matrix.length-1,i,matrix[matrix.length-1][i]);
+        }
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -72,54 +123,15 @@ public class LeetCode0417_太平洋大西洋水流问题 {
         return res;
     }
 
-    private static boolean pacificCore(int[][] matrix,boolean[][] pacific,int curRow,int curCol){
-        if (curRow < 0 || curCol < 0){
-            return false;
+    public static void pacificAtlanticDFS(int[][] matrix,boolean[][] help,int curRow,int curCol,int target){
+        if (curRow < 0 || curCol < 0 || curRow >= matrix.length || curCol >= matrix[0].length || matrix[curRow][curCol] < target ||help[curRow][curCol]){
+            return;
         }
-        if (curRow == 0 || curCol == 0 || pacific[curRow][curCol] == true){
-            pacific[curRow][curCol] = true;
-            return true;
-        }
-
-        boolean flag = false;
-        if (!pacific[curRow][curCol]){
-            pacific[curRow][curCol] = true;
-            if (matrix[curRow][curCol] >= matrix[curRow - 1][curCol]){
-                flag |= pacificCore(matrix,pacific,curRow-1,curCol);
-            }
-            if (matrix[curRow][curCol] >= matrix[curRow][curCol - 1] && !flag){
-                flag |= pacificCore(matrix,pacific,curRow,curCol-1);
-            }
-        }
-        if (!flag){
-            pacific[curRow][curCol] = false;
-        }
-        return flag;
-    }
-
-    private static boolean atlanticCore(int[][] matrix,boolean[][] atlantic,int curRow,int curCol){
-        if (curRow >= matrix.length || curCol >= matrix[0].length){
-            return false;
-        }
-        if (curRow == matrix.length - 1 || curCol == matrix[0].length - 1|| atlantic[curRow][curCol] == true){
-            atlantic[curRow][curCol] = true;
-            return true;
-        }
-
-        boolean flag = false;
-        if (!atlantic[curRow][curCol]){
-            atlantic[curRow][curCol] = true;
-            if (matrix[curRow][curCol] >= matrix[curRow + 1][curCol]){
-                flag |= atlanticCore(matrix,atlantic,curRow+1,curCol);
-            }
-            if (matrix[curRow][curCol] >= matrix[curRow][curCol + 1] && !flag){
-                flag |= atlanticCore(matrix,atlantic,curRow,curCol+1);
-            }
-        }
-        if (!flag){
-            atlantic[curRow][curCol] = false;
-        }
-        return flag;
+        help[curRow][curCol] = true;
+        pacificAtlanticDFS(matrix,help,curRow+1,curCol,matrix[curRow][curCol]);
+        pacificAtlanticDFS(matrix,help,curRow-1,curCol,matrix[curRow][curCol]);
+        pacificAtlanticDFS(matrix,help,curRow,curCol+1,matrix[curRow][curCol]);
+        pacificAtlanticDFS(matrix,help,curRow,curCol-1,matrix[curRow][curCol]);
     }
 
 }
